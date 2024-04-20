@@ -18,4 +18,14 @@ public class Calculadora {
         return a - b;
     }
     
+   
+    
+    public int dividir(int a, int b) {
+        if (b == 0) {
+            throw new ArithmeticException("¡División por cero!");
+        }
+        return a / b;
+    }
+    
+   
 }
